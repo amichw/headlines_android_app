@@ -15,6 +15,8 @@ To open the article in a browser of your choice (from the browsers already insta
 Enjoy.
 <br>
 
+[Link](https://play.google.com/store/apps/details?id=com.ami.headlines) to app on the Playstore
+
 ## DEMO
 ![screen_headlines_small](https://user-images.githubusercontent.com/25724504/101159939-e1d68b80-3636-11eb-9124-27599cd8c603.gif)
 
