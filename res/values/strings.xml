@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">News Feed</string>
+    <string name="article_place_holder">user shouldn\'t be seeing this.. </string>
+    <string-array name="feeds" >
+        <item>NYT Home Page</item>
+        <item>Crossword</item>
+        <item>Ynet </item>
+        <item>Rotter net </item>
+        <item>Mivzakim net </item>
+    </string-array>
+    <string-array name="feed_http">
+        <item>"https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"</item>
+        <item>"https://www.nytimes.com/crosswords/game/mini"</item>
+        <item>"https://www.ynet.co.il/Integration/StoryRss1854.xml"</item>
+        <item>"https://rotter.net/rss/rotternews.xml"</item>
+        <item>"https://rss.mivzakim.net/rss/category/1"</item>
+    </string-array>
+</resources>

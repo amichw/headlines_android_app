@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="1dp"
+    android:paddingRight="2dp"
+    android:paddingTop="4dp"
+    android:id="@+id/rl_root_view"
+    android:paddingLeft="2dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        android:id="@+id/button_download"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:enabled="true"/>
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Night mode"
+        android:id="@+id/btn_night_mode"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:textOn="Night"
+        android:textOff="Day"
+        />
+
+    <com.ami.headlines.SplitView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:splitview="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/split_view"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        splitview:handle="@+id/handle"
+        splitview:primaryContent="@+id/listview_headlines"
+        splitview:secondaryContent="@+id/webView"
+        android:layout_below="@id/button_download"
+
+        >
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview_headlines"
+        android:layout_above="@+id/tv_article" />
+        <ImageView
+            android:id="@+id/handle"
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:background="@drawable/shade_handlebar"
+            />
+<WebView
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:id="@+id/webView"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="false"
+    android:background="@drawable/outline_orange">
+
+</WebView>
+    </com.ami.headlines.SplitView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_article"
+        android:layout_alignParentBottom="true"
+        android:background="#7d86cd"
+        android:text="@string/article_place_holder"
+        android:textSize="18sp" />
+
+</RelativeLayout>
