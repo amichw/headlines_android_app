@@ -15,10 +15,8 @@ To open the article in a browser of your choice (from the browsers already insta
 Enjoy.
 <br>
 
-<p align="center"><img width=33.3% src="https://github.com/amichw/headlines_android_app/blob/main/Screenshot_1.jpg"></p>
-<p align="center"><img width=33.3% src="https://github.com/amichw/headlines_android_app/blob/main/Screenshot_5.jpg"></p>
-<p align="center"><img width=33.3% src="https://github.com/amichw/headlines_android_app/blob/main/Screenshot_6.jpg"></p>
-<p align="center"><img width=33.3% src="https://github.com/amichw/headlines_android_app/blob/main/Screenshot_7.jpg"></p>
+## DEMO
+![screen_headlines_small](https://user-images.githubusercontent.com/25724504/101159939-e1d68b80-3636-11eb-9124-27599cd8c603.gif)
 
 <br>
 
@@ -28,3 +26,8 @@ Enjoy.
 ##### Ynet
 ##### Rotter (forum)
 ##### Mivzakim.net
+<br>
+<p align="center"><img width=33.3% src="https://github.com/amichw/headlines_android_app/blob/main/Screenshot_1.jpg"></p>
+<p align="center"><img width=33.3% src="https://github.com/amichw/headlines_android_app/blob/main/Screenshot_5.jpg"></p>
+<p align="center"><img width=33.3% src="https://github.com/amichw/headlines_android_app/blob/main/Screenshot_6.jpg"></p>
+<p align="center"><img width=33.3% src="https://github.com/amichw/headlines_android_app/blob/main/Screenshot_7.jpg"></p>
